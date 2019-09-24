@@ -16,8 +16,6 @@ Now that we can read the binary dlis files with the dlisio python package, we ar
 
 Warning:  We did discover that sometimes the Static or Dynamic end result channels do not contain resistivity values, but are outputted in color codes!  So, you may have to stitch together each pad channel to create your own final image log channel.
 
-![](https://github.com/aruss175/experimentsinimagelogs/blob/master/image%20log.PNG)
-
 # Data
 
 Data is found [here](https://drive.google.com/open?id=1v_noeFgTZekBzvi6Z3kRneFoBp6D62ru)  This is a small subset of wells with image logs present (both raw and processed) downloaded from the [NOPIMS Australia dataset](https://nopims.dmp.wa.gov.au/Nopims/Search/Wells).
