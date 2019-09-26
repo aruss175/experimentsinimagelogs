@@ -29,4 +29,4 @@ Work done with Python 3.6 and Jupyter Notebooks
 
 # Results
 
-We had the most success with the textural analysis and clustering the resistivity distributions per depth.  Please see the notebooks.
+We had the most success with the textural analysis and clustering the resistivity distributions per depth.  Please see the notebooks.  Start with [this one](https://github.com/aruss175/experimentsinimagelogs/blob/master/notebooks/Workflow_v3_for_Equinor.ipynb)
