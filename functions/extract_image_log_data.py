@@ -16,7 +16,7 @@ def getimagedata(filepath_list, exportfolderpath = "...\\FORCE Data\\"):
     for f in filepath_list:
         with dlisio.load(f) as file:
             for d in file:
-                for origin in d.origin:
+                for origin in d.origins:
                     wellname = origin.well_name
                 for fram in d.frames:
                     for channel in d.channels:

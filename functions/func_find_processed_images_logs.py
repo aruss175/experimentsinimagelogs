@@ -24,7 +24,7 @@ def gogetimages(folderpath, curvetofind = 'DYN', how = "Techlog"):
                 try:
                     with dlisio.load(filepath) as file:
                         for d in file:
-                            for origin in d.origin:
+                            for origin in d.origins:
                                 created = origin.product
                                 wellname = origin.well_name
                                 if how in created:
